@@ -9,8 +9,24 @@ public class Recursividad {
             saludo(total - 1, nombre);
         }
     }
+/**
+*Funcion que realiza cuenta regresiva de acuerdo a un
+*valor entero
+*Fecha: 25 Septiembre
+*Autor: Yaneli Sanchez Cardenas
+*/
+
+	public static void cuentaRegresiva(int n) {
+	if(n < 0) {
+		return;
+	}else{
+		System.out.println(n);
+		cuentaRegresiva(n-1);
+	}
+}
 
     public static void main(String[ ] args) {
-        saludo(10, "Yaneli");
-    }
+        //saludo(10, "Yaneli" , 100);
+    	cuentaRegresiva(100);
+	}
 }
