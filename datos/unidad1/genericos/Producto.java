@@ -1,4 +1,4 @@
-package datos.unidad1.genericos;
+
 
 // Clase abstracta genérica con el parámetro T
 public abstract class Producto<T> {
